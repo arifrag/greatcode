@@ -1,0 +1,29 @@
+@font-face {
+	font-family: qsbold;
+	src: url('Quicksand-Bold.otf');
+}
+
+@font-face {
+	font-family: qslight;
+	src: url('Quicksand-Light.otf');
+}
+
+@font-face {
+	font-family: qsregular;
+	src: url('Quicksand-Regular.otf');
+}
+
+@font-face {
+	font-family: mlight;
+	src: url('Montserrat-Light.otf');
+}
+
+@font-face {
+	font-family: mregular;
+	src: url('Montserrat-Medium.otf');
+}
+
+@font-face {
+	font-family: mbold;
+	src: url('Montserrat-Bold.otf');
+}

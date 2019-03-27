@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="nosnippet">
+    <meta name="google-site-verification" content="y-Du-oJiUuYIsmEJPHjjhu7cnmvfYZIWEVTdqJfblz0" />
+    
+    <title>Jasa Pembuatan Website Jawa Timur</title>
+    <meta name="Author" content="GreatPeople">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/slider-image.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="icon" href="assets/images/icon.webp">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129675883-1"></script>
+</head>
+<style type="text/css">
+	body {
+		overflow: hidden;
+		overflow-y: hidden;
+	}
+	ul {
+		list-style: none;
+		padding-left: 0 !important;
+	}
+</style>
+<body class="bg-grey">
+	<div class="navgc" style="border-bottom: 1px solid #dedede;">
+		<div class="row">
+			<div class="col-md-3 col-xs-6 va-initial">
+				<img src="assets/images/gc-icon-blue.webp" class="icon-nav" width="100">
+				<img src="assets/images/gc-icon-black.webp" class="icon-scroll">
+			</div>
+			<div class="col-md-9 col-xs-6" align="right">
+				<div class="menu-bar">
+					<img src="assets/images/menu.webp" width="15%" class="menu-open">
+					<img src="assets/images/close.webp" width="15%" class="menu-close">
+				</div>
+				<div class="menu-web">
+					<img src="assets/images/gc-icon.webp" width="150">
+					<div class="menunav">
+						<a class="clickme" href="#home">Beranda</a>
+					</div>
+					<div class="menunav">
+						<a class="clickme" href="#services">Layanan</a>
+					</div>
+					<div class="menunav">
+						<a class="clickme" href="#why">Prioritas</a>
+					</div>
+					<div class="menunav">
+						<a class="clickme" href="#aboutus">Tentang Kami</a>
+					</div>
+					<div class="menunav">
+						<a class="clickme" href="great-catalog">Catalog</a>
+					</div>
+					<div class="menunav">
+						<a class="clickme" href="#project">Project</a>
+					</div>
+					<div class="menunav">
+						<a class="clickme" href="#partner">Client</a>
+					</div>
+					<div class="menunav">
+						<a class="clickme" href="#contact">Hubungi Kami</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cover"></div>
+	</div>
+
+	<div id="catalog-view">
+		<div class="row">
+			<div class="col-md-8 bg-grey no-padding">
+				<div class="show-image">
+					<div class="image-catalog">
+            <div id="container">      
+              <div id="next" alt="Next" title="Next">
+                <div class="angle-right"></div>
+              </div>
+              <div id="prev" alt="Prev" title="Prev">       
+                <div class="angle-left"></div>
+              </div>      
+              <div id="slider">
+                <div class="slide">
+                  <img src="assets/images/catalog/catalog.png" width="100%" height="auto">
+                </div>
+                <div class="slide">
+                  <img src="assets/images/catalog/web-dall.png" width="100%" height="auto">
+                </div>
+                <div class="slide">
+                  <img src="assets/images/catalog/web-dall.png" width="100%" height="auto">
+                </div>
+                <div class="slide">
+                  <img src="assets/images/catalog/web-dall.png" width="100%" height="auto">
+                </div>
+              </div>
+            </div>
+          </div>
+					<div class="p-l-15 m-t-40 p-b-300">
+            <div style="padding: 10px 15px;">
+              <strong class="fs-22 lc1 qsbold">Komentar</strong><br>
+              <textarea id="comment" placeholder="Tulis Komentar Disini" class="form-control commentBox"></textarea><br>
+              <button class="button pink clr-white right" id="komen" onclick="plusComment();">Komentar</button>
+              <div class="row loading">
+                <div class="col-md-4 offset-4" align="center">
+                  <div>
+                    <div class="loader1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="dataComment" class="comment">
+              </div>
+              <input type="hidden" id="cekdataComment" value="0">
+            </div>
+          </div>
+				</div>
+			</div>
+			<div class="col-md-4 no-padding">
+				<div class="bg-white about-catalog">
+					<div class="content-catalog">
+            <div class="row">
+              <div class="col-md-12" align="right">
+                <div class="d-flex va-initial right" align="right">
+                  <div class="lh120 right" align="right">
+                    <strong class="fs-18 lc1" id="full_name"></strong><br>
+                    <span class="fs-12 lc1 op6">Member</span>
+                  </div>&nbsp;&nbsp;
+                  <img id="foto" src="" width="55" height="55" class="right">
+                </div>
+              </div>
+            </div><br>
+						<div class="d-flex">
+							<div>
+								<a href="great-catalog.html">
+									<img src="assets/images/icon/arrow.svg" width="35">
+								</a>
+							</div>&nbsp;&nbsp;&nbsp;
+							<div class="title-card" style="width: 100%;">
+								<span class="title-catalog fs-22" id="labs_name"></span><br>
+								<span class="by" id="author"></span>
+							</div>
+						</div>
+            <br>
+            <div id="programming_icon">
+              
+            </div><br>
+            <div id="description">
+            </div>
+						<span class="fs-40">
+							content
+						</span><br><br>
+						<strong class="fs-18 lc1">Disarankan</strong>
+						<div id="recommendation"></div>
+					</div>
+					<div class="catalog-foot">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="d-flex">
+									<a href="" class="button pink clr-white">Download</a>&nbsp;&nbsp;
+									<div class="va-initial">
+										<img src="assets/images/icon/download.svg" width="10">&nbsp;
+										<span class="op8 fs-14" id="download"></span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-7">
+								<div class="d-flex" style="float: right;">
+									<button class="button-card va-initial dilike" id="btn"  onclick="plusCoffea()">
+										<img id="icon_unlike" src="assets/images/icon/unlike.svg" width="20" class="icon-unlike">
+										<img id="icon_like" src="assets/images/icon/like.svg" width="20" class="icon-like">&nbsp;
+                      <span id="count"></span>
+                      <input type="hidden" id="statusCoffea" value="" />
+									</button>&nbsp;&nbsp;
+									<button class="button-card va-initial dishare" id="fb-share-button">
+										<img src="assets/images/icon/share.svg" width="20" class="icon-share">
+										<img src="assets/images/icon/unshare.svg" width="20" class="icon-unshare">
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Silahkan Login dulu untuk mendukung karya anak bangsa</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label>Email atau Username</label>
+              <input type="text" class="form-control" placeholder="Username atau Email" id="uer">
+            </div>
+            <div class="form-group">
+              <label>Kata Sandi</label>
+              <input type="email" class="form-control" id="password" placeholder="Kata Sandi">
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#register">Daftar</button>
+              <button type="button" class="btn btn-primary very">Login</button>
+            </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Silahkan Daftar dulu untuk mendukung karya anak bangsa</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label>Nama Lengkap</label>
+                  <input type="text" class="form-control" placeholder="Nama Lengkap" id="nama">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label>Username</label>
+                  <input type="text" class="form-control" placeholder="Username" id="username">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label>Email</label>
+                  <input type="text" class="form-control" placeholder="Email" id="email">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label>Password</label>
+                  <input type="text" class="form-control" placeholder="Password" id="pass">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label>No Hp</label>
+                  <input type="text" class="form-control" placeholder="No Hp" id="pass">
+                  </div>
+              </div>
+                <div class="col-md-6">
+                <div class="m-t-10">
+                  <label>Upload foto</label>
+                                <input type="file" class="hide inputfile" id="upload" data-multiple-caption="{count} files selected" multiple />
+                                <label for="upload"><span>Upload Foto Profil</span></label>
+                            </div>
+              </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#login">Login</button>
+              <button type="button" class="btn btn-primary very">Daftar</button>
+            </div>
+        </div> 
+      </div>
+  </div>
+
+
+	<script src="assets/js/jquery-1.9.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/slider-image.js"></script>
+
+    <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <script src="assets/js/gc.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/params.js"></script>
+    <script src="assets/js/jquery.timeago.js"></script>
+
+    <script type="text/javascript">
+      dataReady();
+      var xid = getUrlParameter('xid');
+      function dataReady(){
+        var _url = 'server/ajax.php?act=cekSession';
+        $.ajax({url:_url, assync:false,
+        success:function(data){
+            var temp = data.split('@');
+            $('#full_name').text(temp[1]);
+            $('#member').text('Member');
+            if(temp[2] != undefined){
+              $("#foto").attr("src","assets/member/images/"+temp[2]);
+            }
+          }
+        });
+
+        var _url = 'server/ajax.php?act=labsDataDetailImage&xid='+xid;
+        $.ajax({url:_url, assync:false,
+        success:function(data){
+          var obj = JSON.parse(data);
+          var html = '';
+            for(var i = 0; i < obj.length; i++) {
+
+            }
+          }
+        });
+
+        var xid = getUrlParameter('xid');
+        var _url = 'server/ajax.php?act=labsDataDetailDesc&xid='+xid;
+        $.ajax({url:_url, assync:false,
+        success:function(data){
+          var obj = JSON.parse(data);
+            $('#labs_name').text(obj[0].labs_name);
+            $('#description').html(obj[0].description);
+            $('#download').text(obj[0].download);
+            var timeago = jQuery.timeago(obj[0].timeago);
+            $('#author').html('Oleh '+obj[0].author+'&nbsp;&nbsp;&nbsp;('+timeago+')');
+
+
+            if(obj[0].statusCoffea == 1){
+              $('#btn').addClass("active");
+              $('#btn').addClass("like");
+              $('#icon_unlike').addClass("d-none");
+              $('#icon_like').addClass("d-block");
+              $('#count').text(obj[0].coffea);
+              $('#statusCoffea').val(1);
+            }else{
+              $('#btn').addClass("");
+              $('#btn').addClass("");
+              $('#icon_unlike').addClass("d-block");
+              $('#icon_like').addClass("d-none");
+              $('#count').text(obj[0].coffea);
+              $('#statusCoffea').val(0);
+            } 
+          }
+        });
+
+        var _url = 'server/ajax.php?act=labsDataProgrammingIcon&xid='+xid;
+        $.ajax({url:_url, assync:false,
+        success:function(data){
+          var obj = JSON.parse(data);
+            var icon = ""
+            for(var i = 0; i < obj.length; i++) {
+              icon+='<i class="fa '+obj[i].icon+'"></i>&nbsp;&nbsp;'
+            }
+            $('#programming_icon').html(icon);
+          }
+        });
+
+        var _url = 'server/ajax.php?act=labsDataRecommendation&xid='+xid;
+        $.ajax({url:_url, assync:false,
+        success:function(data){
+          var obj = JSON.parse(data);
+            var html = ""
+            for(var i = 0; i < obj.length; i++) {
+              html+='<a href="great-detail.html?xid='+obj[i].id_labs+'">'+
+                      '<div class="row m-t-20">'+
+                        '<div class="col-md-4">'+
+                          '<img src="assets/images/catalog/'+obj[i].image_thumbnail+'" width="100%">'+
+                        '</div>'+
+                        '<div class="col-md-8">'+
+                          '<div class="title-card">'+
+                            '<span class="title-catalog clr-dark">'+obj[i].labs_name+'</span><br>'+
+                            '<span class="by">By '+obj[i].author+'</span>'+
+                            '<div>'+
+                              '<span class="fs-11 clr-grey">'+
+                                '<i class="fa fa-eye op4"></i> '+
+                                '<span class="by">'+obj[i].view+'</span>'+
+                              '</span>&nbsp;'+
+                              '<span class="fs-11 clr-grey">'+
+                                '<i class="fa fa-coffee op4"></i>'+
+                                '<span class="by">'+obj[i].coffea+'</span>'+
+                              '</span>&nbsp;'+
+                              '<span class="fs-11 clr-grey">'+
+                                '<i class="fa fa-download op4"></i>'+
+                                '<span class="by">'+obj[i].download+'</span>'+
+                              '</span>'+
+                            '</div>'+
+                          '</div>'+
+                        '</div>'+
+                      '</div>'+
+                    '</a>';
+            }
+            $('#recommendation').html(html);
+          }
+        });
+      }
+
+      function plusComment(){
+        var comment = $.trim($("#comment").val());
+        var full_name = $('#full_name').text();
+        var dataComment ='<div id="isikomen" class="m-t-20">'+
+                '<strong class="lc1 fs-18">'+full_name+'</strong><br>'+
+                '<span class="op8">'+comment+'</span>'+
+              '</div>';
+            $('#dataComment').prepend(dataComment);
+        var _url = 'server/ajax.php?act=plusComment&comment='+comment+'&xid='+xid;
+        $.ajax({url:_url, assync:false,
+        success:function(data){
+              
+          }
+        });
+      }
+
+      function plusCoffea(){
+        var xid = getUrlParameter('xid');
+        var statusCoffea = $('#statusCoffea').val();
+        var count = parseFloat($('#count').text());
+        var _url = 'server/ajax.php?act=plusCoffea&xid='+xid;
+        // $.ajax({url:_url, assync:false,
+        // success:function(data){
+
+        // }});
+          if(statusCoffea == 1){
+            var count = parseFloat(count)-1;
+            $('#btn').removeClass("active");
+            $('#btn').removeClass("like");
+            $('#icon_unlike').removeClass("d-none");
+            $('#icon_like').removeClass("d-block");
+            $('#icon_unlike').addClass("d-block");
+            $('#icon_like').addClass("d-none");
+            $('#statusCoffea').val(0);
+            $('#count').text(count);
+          }else if(statusCoffea == 0){
+            var count = parseFloat(count)+1;
+            $('#btn').addClass("active");
+            $('#btn').addClass("like");
+            $('#icon_unlike').removeClass("d-block");
+            $('#icon_like').removeClass("d-none");
+            $('#icon_unlike').addClass("d-none");
+            $('#icon_like').addClass("d-block");
+            $('#statusCoffea').val(1);
+            $('#count').text(count);
+          }
+      }
+
+
+
+
+      $(document).ready(function() {
+        $('#komen').click(function() {
+          var comment = $('.commentBox').val();
+          $('<li>').text(comment).prependTo('.comments');
+          $('#komen').attr('disabled', 'true');
+          $('.counter').text('140');
+          $('.commentBox').val('');
+        });
+        
+        $('.commentBox').keyup(function() {
+          var commentLength = $(this).val().length;
+          var charLeft =  140 - commentLength;
+          $('.counter').text(charLeft);
+          
+          if (commentLength == 0) {
+            $('#komen').attr('disabled', 'true');
+          }
+          else if (commentLength > 140) {
+            $('#komen').attr('disabled', 'true');
+          }
+          else {
+            $('#komen').removeAttr('disabled', 'true');
+          }
+        });
+        
+        $('#komen').attr('disabled', 'true');
+      
+      });
+		
+
+		  $('.dishare').on("click", function() {
+	  		$('.icon-shre').toggleClass('d-block');
+	  		$('.icon-share').toggleClass('d-none');
+		  })
+    	var fbButton = document.getElementById('fb-share-button');
+		  var url = window.location.href;
+
+		  fbButton.addEventListener('click', function() {
+    		window.open('https://www.facebook.com/share.php?u=https://hahow.in', '', 'width=500,height=500');
+    		return false;
+		  });
+    	
+    </script>
+
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".comment").hide();
+       
+        $(".show-image").on("scroll", function(){
+          var $comment = $(".show-image").scrollTop();
+          var cekdataComment = $('#cekdataComment').val();
+          if(cekdataComment == 0){
+            if($comment > 100) {
+
+              var _url = 'server/ajax.php?act=labsDataComment&xid='+xid;
+              $.ajax({url:_url, assync:false,
+              success:function(data){
+                var obj = JSON.parse(data);
+                  var comment = ""
+                  for(var i = 0; i < obj.length; i++) {
+                    comment+='<div id="isikomen" class="m-t-20">'+
+                      '<strong class="lc1 fs-18">'+obj[i].full_name+'</strong><br>'+
+                      '<span class="op8">'+obj[i].comment+'</span>'+
+                    '</div>';
+                  }
+                  $('#dataComment').html(comment);
+                  $('#cekdataComment').val(1);
+                }
+              });
+              $(".loading").fadeOut(1000);
+              $(".comment").fadeIn(1000);
+            }
+          }
+        })
+      })
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#slider-wrap ul#slider li img").hide();
+        setTimeout(function(){
+          $(".load-image").fadeOut(100);
+          $("#slider-wrap ul#slider li img").fadeIn(600);
+        },2500);
+      })
+    </script>
+
+</body>
+</html>
